@@ -1,0 +1,65 @@
+# fruits = ("apple", "banana", "cherry", "mango", "banana")
+# print(len(fruits))
+# fruits = ("apple", "banana", "cherry", "mango", "banana")
+# print(fruits.index("banana"))
+# Tuple in python are immutable,so we cannot change cherry to grape.
+# fruits = ("apple", "banana", "cherry", "mango", "banana")
+# fruit_list = list(fruits)
+# fruit_list[2] = "grape"
+# fruits = tuple(fruit_list)
+# print(fruits)
+# # task2
+# colors = ("red", "green", "blue")
+# shapes = ("circle", "square", "triangle")
+# art = colors + shapes
+# print(art)
+# colors = ("red", "green", "blue")
+# shapes = ("circle", "square", "triangle")
+# art = colors + shapes
+# print(art)
+# art=art+(“Diamond”):
+# print(art)
+# colors = ("red", "green", "blue")
+# shapes = ("circle", "square", "triangle")
+# print(colors * 3)
+# colors = ("red", "green", "blue")
+# shapes = ("circle", "square", "triangle")
+# art = colors + shapes
+# print(art)
+# middle = art[len(art)//2 : len(art)//2 + 1]
+# print(middle)
+# colors = ("red", "green", "blue")
+# shapes = ("circle", "square", "triangle")
+# art = colors + shapes
+# print(art)
+# print("square" in art)
+# # task3
+# marks = (78, 85, 69, 90, 85)
+# highest = max(marks)
+# lowest = min(marks)
+# print("Highest mark:", highest)
+# print("Lowest mark:", lowest)
+# marks = (78, 85, 69, 90, 85)
+# count_85 = marks.count(85)
+# print("Number of times 85 appears:", count_85)
+# marks = (78, 85, 69, 90, 85)
+# average = sum(marks) / len(marks)
+# print("Average mark:", average)
+# # Activity 4: Rainfall Data:
+# monthly_rainfall = (120, 150, 120, 180, 120, 90, 110, 130, 100, 140, 120, 160)
+# total_rainfall = sum(monthly_rainfall)
+# print("Total annual rainfall:", total_rainfall, "mm")
+# monthly_rainfall = (120, 150, 120, 180, 120, 90, 110, 130, 100, 140, 120, 160)
+# highest = max(monthly_rainfall)
+# lowest = min(monthly_rainfall)
+# print("Highest rainfall:", highest, "mm")
+# print("Lowest rainfall:", lowest, "mm")
+# monthly_rainfall = (120, 150, 120, 180, 120, 90, 110, 130, 100, 140, 120, 160)
+# total_rainfall = sum(monthly_rainfall)
+# print("Total annual rainfall:", total_rainfall, "mm")
+# average_rainfall = total_rainfall / len(monthly_rainfall)
+# print("Average monthly rainfall:", average_rainfall, "mm")
+monthly_rainfall = (120, 150, 120, 180, 120, 90, 110, 130, 100, 140, 120, 160)
+count=monthly_rainfall.count(120)
+print(count)
+
